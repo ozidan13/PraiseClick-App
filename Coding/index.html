@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="wclassth=device-width, initial-scale=1.0">
+<title>DevicePhone</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="style/style.css"/>
+<script id="applicationScript" type="text/javascript" src="scripts/index.js"></script>
+</head>
+<body>
+<div class="DevicePhone">
+	<img class="bg1" src="imgs/bg1.png" srcset="imgs/bg1.png 1x, imgs/bg1@2x.png 2x">
+		
+	<svg class="Rectangle_1">
+		<rect class="Rectangle_1" rx="28" ry="28" x="0" y="0" width="361" height="78">
+		</rect>
+	</svg>
+	<div class="Group_4">
+		<div class="Text">
+			<span>عالميا</span>
+		</div>
+		<div class="n_000000">
+			<span>1,000,000</span>
+		</div>
+	</div>
+	<div class="Group_7">
+		<div class="n_">
+			<span>المركز الاول</span>
+		</div>
+		<div class="n__200000">
+			<span>مصر : 200,000</span>
+		</div>
+	</div>
+	<div class="Group_5">
+		<svg class="Rectangle_1_r">
+			<rect class="Rectangle_1_r" rx="28" ry="28" x="0" y="0" width="167" height="60">
+			</rect>
+		</svg>
+		<div class="Text_s">
+			<span>دولتك</span>
+		</div>
+		<div class="n__200000_t">
+			<span>مصر : 200,000</span>
+		</div>
+	</div>
+	<div class="Group_6">
+		<svg class="Rectangle_1_v">
+			<rect class="Rectangle_1_v" rx="28" ry="28" x="0" y="0" width="167" height="60">
+			</rect>
+		</svg>
+		<div class="Text_w">
+			<span>محافظتك</span>
+		</div>
+		<div class="n__50000">
+			<span>القاهرة : 50,000</span>
+		</div>
+	</div>
+	<div class="Rectangle_2">
+		<div> 
+			<p><a id="clicks">0</a></p> 
+		</div>
+		<rect onclick="application.goToTargetView(event)" class="Rectangle_2" rx="22" ry="22" x="0" y="0" width="334" height="81">
+		</rect>
+	</div>
+	<button type="button" onclick="hello()" class="n__">
+		سُبْحـانَ اللهِ وَبِحَمْـدِهِ
+	</button>
+	<div class="aya-quran1">
+		<span>من قالها 100 مرة ححُطَّتْ خَطَايَاهُ وَإِنْ كَانَتْ مِثْلَ زَبَدِ الْبَحْرِ. لَمْ يَأْتِ أَحَدٌ <br/>يَوْمَ الْقِيَامَةِ  ِأَفْضَلَ مِمَّا جَاءَ بِهِ إِلَّا أَحَدٌ قَالَ مِثْلَ مَا قَالَ أَوْ زَادَ عَلَيْهِ.</span>
+	</div>
+	<svg class="Rectangle_3">
+		<rect class="Rectangle_3" rx="0" ry="0" x="0" y="0" width="2" height="55">
+		</rect>
+	</svg>
+	<script type="text/javascript">
+		var clicks = 0; function hello()   { clicks+= 1; document.getElementById("clicks").innerHTML = clicks; }; 
+	</script>
+</div>
+</body>
+</html>
